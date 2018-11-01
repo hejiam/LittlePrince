@@ -12,5 +12,5 @@ int main(){
     do{
         cout << i <<endl;
         i++;
-    }while(i<3);
+    }while(i<10);
 }

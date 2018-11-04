@@ -3,4 +3,4 @@ project(learnCplusplus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(learnCplusplus  Do_while_loop.cpp)
+add_executable(learnCplusplus recursion.cpp storage_class.cpp)

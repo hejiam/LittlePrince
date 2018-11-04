@@ -123,32 +123,59 @@ learnCplusplus/fast:
 	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/build
 .PHONY : learnCplusplus/fast
 
-Do_while_loop.o: Do_while_loop.cpp.o
+recursion.o: recursion.cpp.o
 
-.PHONY : Do_while_loop.o
+.PHONY : recursion.o
 
 # target to build an object file
-Do_while_loop.cpp.o:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Do_while_loop.cpp.o
-.PHONY : Do_while_loop.cpp.o
+recursion.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.o
+.PHONY : recursion.cpp.o
 
-Do_while_loop.i: Do_while_loop.cpp.i
+recursion.i: recursion.cpp.i
 
-.PHONY : Do_while_loop.i
+.PHONY : recursion.i
 
 # target to preprocess a source file
-Do_while_loop.cpp.i:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Do_while_loop.cpp.i
-.PHONY : Do_while_loop.cpp.i
+recursion.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.i
+.PHONY : recursion.cpp.i
 
-Do_while_loop.s: Do_while_loop.cpp.s
+recursion.s: recursion.cpp.s
 
-.PHONY : Do_while_loop.s
+.PHONY : recursion.s
 
 # target to generate assembly for a file
-Do_while_loop.cpp.s:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Do_while_loop.cpp.s
-.PHONY : Do_while_loop.cpp.s
+recursion.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.s
+.PHONY : recursion.cpp.s
+
+storage_class.o: storage_class.cpp.o
+
+.PHONY : storage_class.o
+
+# target to build an object file
+storage_class.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.o
+.PHONY : storage_class.cpp.o
+
+storage_class.i: storage_class.cpp.i
+
+.PHONY : storage_class.i
+
+# target to preprocess a source file
+storage_class.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.i
+.PHONY : storage_class.cpp.i
+
+storage_class.s: storage_class.cpp.s
+
+.PHONY : storage_class.s
+
+# target to generate assembly for a file
+storage_class.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.s
+.PHONY : storage_class.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learnCplusplus"
-	@echo "... Do_while_loop.o"
-	@echo "... Do_while_loop.i"
-	@echo "... Do_while_loop.s"
+	@echo "... recursion.o"
+	@echo "... recursion.i"
+	@echo "... recursion.s"
+	@echo "... storage_class.o"
+	@echo "... storage_class.i"
+	@echo "... storage_class.s"
 .PHONY : help
 
 

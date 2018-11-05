@@ -9,7 +9,9 @@
 using namespace std;
 
 void func(){
-    static int i=0; //static variable
+    static int i=0;
+    //static variable is initialized only once and exists till the end of a program.
+    // It retains its value between multiple functions call.
     int j=0; //local variable
     i++;
     j++;

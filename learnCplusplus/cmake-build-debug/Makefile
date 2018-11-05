@@ -123,59 +123,32 @@ learnCplusplus/fast:
 	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/build
 .PHONY : learnCplusplus/fast
 
-recursion.o: recursion.cpp.o
+test.o: test.cpp.o
 
-.PHONY : recursion.o
-
-# target to build an object file
-recursion.cpp.o:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.o
-.PHONY : recursion.cpp.o
-
-recursion.i: recursion.cpp.i
-
-.PHONY : recursion.i
-
-# target to preprocess a source file
-recursion.cpp.i:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.i
-.PHONY : recursion.cpp.i
-
-recursion.s: recursion.cpp.s
-
-.PHONY : recursion.s
-
-# target to generate assembly for a file
-recursion.cpp.s:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.s
-.PHONY : recursion.cpp.s
-
-storage_class.o: storage_class.cpp.o
-
-.PHONY : storage_class.o
+.PHONY : test.o
 
 # target to build an object file
-storage_class.cpp.o:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.o
-.PHONY : storage_class.cpp.o
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-storage_class.i: storage_class.cpp.i
+test.i: test.cpp.i
 
-.PHONY : storage_class.i
+.PHONY : test.i
 
 # target to preprocess a source file
-storage_class.cpp.i:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.i
-.PHONY : storage_class.cpp.i
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-storage_class.s: storage_class.cpp.s
+test.s: test.cpp.s
 
-.PHONY : storage_class.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-storage_class.cpp.s:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.s
-.PHONY : storage_class.cpp.s
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learnCplusplus"
-	@echo "... recursion.o"
-	@echo "... recursion.i"
-	@echo "... recursion.s"
-	@echo "... storage_class.o"
-	@echo "... storage_class.i"
-	@echo "... storage_class.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

@@ -57,67 +57,41 @@ include CMakeFiles/learnCplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learnCplusplus.dir/flags.make
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
-CMakeFiles/learnCplusplus.dir/recursion.cpp.o: ../recursion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCplusplus.dir/recursion.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/recursion.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/recursion.cpp
+CMakeFiles/learnCplusplus.dir/test.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
+CMakeFiles/learnCplusplus.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCplusplus.dir/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/test.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/recursion.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/recursion.cpp > CMakeFiles/learnCplusplus.dir/recursion.cpp.i
+CMakeFiles/learnCplusplus.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp > CMakeFiles/learnCplusplus.dir/test.cpp.i
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/recursion.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/recursion.cpp -o CMakeFiles/learnCplusplus.dir/recursion.cpp.s
+CMakeFiles/learnCplusplus.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp -o CMakeFiles/learnCplusplus.dir/test.cpp.s
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.o.requires:
+CMakeFiles/learnCplusplus.dir/test.cpp.o.requires:
 
-.PHONY : CMakeFiles/learnCplusplus.dir/recursion.cpp.o.requires
+.PHONY : CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.o.provides: CMakeFiles/learnCplusplus.dir/recursion.cpp.o.requires
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/recursion.cpp.o.provides.build
-.PHONY : CMakeFiles/learnCplusplus.dir/recursion.cpp.o.provides
+CMakeFiles/learnCplusplus.dir/test.cpp.o.provides: CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.o.provides.build
+.PHONY : CMakeFiles/learnCplusplus.dir/test.cpp.o.provides
 
-CMakeFiles/learnCplusplus.dir/recursion.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/recursion.cpp.o
-
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.o: ../storage_class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learnCplusplus.dir/storage_class.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/storage_class.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/storage_class.cpp
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/storage_class.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/storage_class.cpp > CMakeFiles/learnCplusplus.dir/storage_class.cpp.i
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/storage_class.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/storage_class.cpp -o CMakeFiles/learnCplusplus.dir/storage_class.cpp.s
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.requires:
-
-.PHONY : CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.requires
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.provides: CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.requires
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.provides.build
-.PHONY : CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.provides
-
-CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/storage_class.cpp.o
+CMakeFiles/learnCplusplus.dir/test.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/test.cpp.o
 
 
 # Object files for target learnCplusplus
 learnCplusplus_OBJECTS = \
-"CMakeFiles/learnCplusplus.dir/recursion.cpp.o" \
-"CMakeFiles/learnCplusplus.dir/storage_class.cpp.o"
+"CMakeFiles/learnCplusplus.dir/test.cpp.o"
 
 # External object files for target learnCplusplus
 learnCplusplus_EXTERNAL_OBJECTS =
 
-learnCplusplus: CMakeFiles/learnCplusplus.dir/recursion.cpp.o
-learnCplusplus: CMakeFiles/learnCplusplus.dir/storage_class.cpp.o
+learnCplusplus: CMakeFiles/learnCplusplus.dir/test.cpp.o
 learnCplusplus: CMakeFiles/learnCplusplus.dir/build.make
 learnCplusplus: CMakeFiles/learnCplusplus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable learnCplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learnCplusplus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learnCplusplus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +99,7 @@ CMakeFiles/learnCplusplus.dir/build: learnCplusplus
 
 .PHONY : CMakeFiles/learnCplusplus.dir/build
 
-CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/recursion.cpp.o.requires
-CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/storage_class.cpp.o.requires
+CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
 
 .PHONY : CMakeFiles/learnCplusplus.dir/requires
 

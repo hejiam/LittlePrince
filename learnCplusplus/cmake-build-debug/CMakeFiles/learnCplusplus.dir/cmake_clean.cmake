@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learnCplusplus.dir/recursion.cpp.o"
-  "CMakeFiles/learnCplusplus.dir/storage_class.cpp.o"
+  "CMakeFiles/learnCplusplus.dir/test.cpp.o"
   "learnCplusplus.pdb"
   "learnCplusplus"
 )

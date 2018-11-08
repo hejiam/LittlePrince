@@ -31,3 +31,25 @@ int main(){
     cout << "The factorial number is:"  << fact <<endl;
     return 0;
 }
+
+#include <iostream>
+using namespace std;
+
+int Fibonacci(int k){
+    if (k == 1){
+        return 0;
+    }else if(k == 2){
+        return 1;
+    }else if(k > 2){
+        return Fibonacci(k-1)+Fibonacci(k-2);
+    }
+}
+
+int main(){
+    int k;
+    cin >> k;
+    Fibonacci(k);
+    for(int i=0; i<k; i++){
+        cout << Fibonacci(i) << " ";
+    }
+}

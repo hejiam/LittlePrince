@@ -123,6 +123,33 @@ learnCplusplus/fast:
 	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/build
 .PHONY : learnCplusplus/fast
 
+Fibonacci.o: Fibonacci.cpp.o
+
+.PHONY : Fibonacci.o
+
+# target to build an object file
+Fibonacci.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o
+.PHONY : Fibonacci.cpp.o
+
+Fibonacci.i: Fibonacci.cpp.i
+
+.PHONY : Fibonacci.i
+
+# target to preprocess a source file
+Fibonacci.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.i
+.PHONY : Fibonacci.cpp.i
+
+Fibonacci.s: Fibonacci.cpp.s
+
+.PHONY : Fibonacci.s
+
+# target to generate assembly for a file
+Fibonacci.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.s
+.PHONY : Fibonacci.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learnCplusplus"
+	@echo "... Fibonacci.o"
+	@echo "... Fibonacci.i"
+	@echo "... Fibonacci.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

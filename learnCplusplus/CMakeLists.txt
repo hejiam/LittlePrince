@@ -3,4 +3,4 @@ project(learnCplusplus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(learnCplusplus test.cpp )
+add_executable(learnCplusplus  test.cpp Fibonacci.cpp)

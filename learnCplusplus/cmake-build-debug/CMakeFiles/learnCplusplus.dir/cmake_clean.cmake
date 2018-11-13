@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learnCplusplus.dir/test.cpp.o"
-  "CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o"
+  "CMakeFiles/learnCplusplus.dir/factorial.cpp.o"
+  "CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o"
   "learnCplusplus.pdb"
   "learnCplusplus"
 )

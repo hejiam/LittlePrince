@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Fibonacci.cpp">
+		<Unit filename="/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Armstrong_number.cpp">
 			<Option target="learnCplusplus"/>
 		</Unit>
-		<Unit filename="/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp">
+		<Unit filename="/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/factorial.cpp">
 			<Option target="learnCplusplus"/>
 		</Unit>
 		<Unit filename="/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/CMakeLists.txt">

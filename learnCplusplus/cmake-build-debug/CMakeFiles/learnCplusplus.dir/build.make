@@ -57,64 +57,64 @@ include CMakeFiles/learnCplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learnCplusplus.dir/flags.make
 
-CMakeFiles/learnCplusplus.dir/test.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
-CMakeFiles/learnCplusplus.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCplusplus.dir/test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/test.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp
+CMakeFiles/learnCplusplus.dir/factorial.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
+CMakeFiles/learnCplusplus.dir/factorial.cpp.o: ../factorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCplusplus.dir/factorial.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/factorial.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/factorial.cpp
 
-CMakeFiles/learnCplusplus.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp > CMakeFiles/learnCplusplus.dir/test.cpp.i
+CMakeFiles/learnCplusplus.dir/factorial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/factorial.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/factorial.cpp > CMakeFiles/learnCplusplus.dir/factorial.cpp.i
 
-CMakeFiles/learnCplusplus.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp -o CMakeFiles/learnCplusplus.dir/test.cpp.s
+CMakeFiles/learnCplusplus.dir/factorial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/factorial.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/factorial.cpp -o CMakeFiles/learnCplusplus.dir/factorial.cpp.s
 
-CMakeFiles/learnCplusplus.dir/test.cpp.o.requires:
+CMakeFiles/learnCplusplus.dir/factorial.cpp.o.requires:
 
-.PHONY : CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
+.PHONY : CMakeFiles/learnCplusplus.dir/factorial.cpp.o.requires
 
-CMakeFiles/learnCplusplus.dir/test.cpp.o.provides: CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.o.provides.build
-.PHONY : CMakeFiles/learnCplusplus.dir/test.cpp.o.provides
+CMakeFiles/learnCplusplus.dir/factorial.cpp.o.provides: CMakeFiles/learnCplusplus.dir/factorial.cpp.o.requires
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/factorial.cpp.o.provides.build
+.PHONY : CMakeFiles/learnCplusplus.dir/factorial.cpp.o.provides
 
-CMakeFiles/learnCplusplus.dir/test.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/test.cpp.o
+CMakeFiles/learnCplusplus.dir/factorial.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/factorial.cpp.o
 
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o: ../Fibonacci.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Fibonacci.cpp
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o: CMakeFiles/learnCplusplus.dir/flags.make
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o: ../Armstrong_number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o -c /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Armstrong_number.cpp
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Fibonacci.cpp > CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.i
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Armstrong_number.cpp > CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.i
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Fibonacci.cpp -o CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.s
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Armstrong_number.cpp -o CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.s
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.requires:
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.requires:
 
-.PHONY : CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.requires
+.PHONY : CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.requires
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.provides: CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.requires
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.provides.build
-.PHONY : CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.provides
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.provides: CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.requires
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.provides.build
+.PHONY : CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.provides
 
-CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o
+CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.provides.build: CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o
 
 
 # Object files for target learnCplusplus
 learnCplusplus_OBJECTS = \
-"CMakeFiles/learnCplusplus.dir/test.cpp.o" \
-"CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o"
+"CMakeFiles/learnCplusplus.dir/factorial.cpp.o" \
+"CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o"
 
 # External object files for target learnCplusplus
 learnCplusplus_EXTERNAL_OBJECTS =
 
-learnCplusplus: CMakeFiles/learnCplusplus.dir/test.cpp.o
-learnCplusplus: CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o
+learnCplusplus: CMakeFiles/learnCplusplus.dir/factorial.cpp.o
+learnCplusplus: CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o
 learnCplusplus: CMakeFiles/learnCplusplus.dir/build.make
 learnCplusplus: CMakeFiles/learnCplusplus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable learnCplusplus"
@@ -125,8 +125,8 @@ CMakeFiles/learnCplusplus.dir/build: learnCplusplus
 
 .PHONY : CMakeFiles/learnCplusplus.dir/build
 
-CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/test.cpp.o.requires
-CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o.requires
+CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/factorial.cpp.o.requires
+CMakeFiles/learnCplusplus.dir/requires: CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o.requires
 
 .PHONY : CMakeFiles/learnCplusplus.dir/requires
 

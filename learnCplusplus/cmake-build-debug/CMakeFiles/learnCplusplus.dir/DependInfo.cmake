@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Fibonacci.cpp" "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o"
-  "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/test.cpp" "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/learnCplusplus.dir/test.cpp.o"
+  "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/Armstrong_number.cpp" "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o"
+  "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/factorial.cpp" "/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/learnCplusplus.dir/factorial.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

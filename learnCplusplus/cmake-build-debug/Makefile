@@ -123,59 +123,59 @@ learnCplusplus/fast:
 	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/build
 .PHONY : learnCplusplus/fast
 
-Fibonacci.o: Fibonacci.cpp.o
+Armstrong_number.o: Armstrong_number.cpp.o
 
-.PHONY : Fibonacci.o
-
-# target to build an object file
-Fibonacci.cpp.o:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.o
-.PHONY : Fibonacci.cpp.o
-
-Fibonacci.i: Fibonacci.cpp.i
-
-.PHONY : Fibonacci.i
-
-# target to preprocess a source file
-Fibonacci.cpp.i:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.i
-.PHONY : Fibonacci.cpp.i
-
-Fibonacci.s: Fibonacci.cpp.s
-
-.PHONY : Fibonacci.s
-
-# target to generate assembly for a file
-Fibonacci.cpp.s:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Fibonacci.cpp.s
-.PHONY : Fibonacci.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
+.PHONY : Armstrong_number.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.o
-.PHONY : test.cpp.o
+Armstrong_number.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.o
+.PHONY : Armstrong_number.cpp.o
 
-test.i: test.cpp.i
+Armstrong_number.i: Armstrong_number.cpp.i
 
-.PHONY : test.i
+.PHONY : Armstrong_number.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.i
-.PHONY : test.cpp.i
+Armstrong_number.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.i
+.PHONY : Armstrong_number.cpp.i
 
-test.s: test.cpp.s
+Armstrong_number.s: Armstrong_number.cpp.s
 
-.PHONY : test.s
+.PHONY : Armstrong_number.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/test.cpp.s
-.PHONY : test.cpp.s
+Armstrong_number.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/Armstrong_number.cpp.s
+.PHONY : Armstrong_number.cpp.s
+
+factorial.o: factorial.cpp.o
+
+.PHONY : factorial.o
+
+# target to build an object file
+factorial.cpp.o:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/factorial.cpp.o
+.PHONY : factorial.cpp.o
+
+factorial.i: factorial.cpp.i
+
+.PHONY : factorial.i
+
+# target to preprocess a source file
+factorial.cpp.i:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/factorial.cpp.i
+.PHONY : factorial.cpp.i
+
+factorial.s: factorial.cpp.s
+
+.PHONY : factorial.s
+
+# target to generate assembly for a file
+factorial.cpp.s:
+	$(MAKE) -f CMakeFiles/learnCplusplus.dir/build.make CMakeFiles/learnCplusplus.dir/factorial.cpp.s
+.PHONY : factorial.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learnCplusplus"
-	@echo "... Fibonacci.o"
-	@echo "... Fibonacci.i"
-	@echo "... Fibonacci.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... Armstrong_number.o"
+	@echo "... Armstrong_number.i"
+	@echo "... Armstrong_number.s"
+	@echo "... factorial.o"
+	@echo "... factorial.i"
+	@echo "... factorial.s"
 .PHONY : help
 
 

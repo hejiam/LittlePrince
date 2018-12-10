@@ -1,3 +1,0 @@
-/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hjm/Public/study/c_plus_plus/program/learnCplusplus/cmake-build-debug/CMakeFiles/learnCplusplus.dir
